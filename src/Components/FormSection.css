@@ -309,9 +309,9 @@
 
 @media screen and (min-width:768px) and (max-width:1280px) {
     .form-d{
-        max-width: 640px;
+        max-width: 740px;
         height: 577px;
-        left: 252px;
+        left: 272px;
     }
     .form-part1-d ,.form-part2 {
         width: 100%;
@@ -321,7 +321,7 @@
         padding: 24px;
     }
     .form-part1-2nd-1st{
-        width: 640px;
+        width: 740px;
     }
     .form-part1-1st{
         width: 200px;
@@ -340,11 +340,14 @@
     }
     .form-part1-2nd-1st-right-part{
         display: flex;
-        /* justify-content: space-between; */
+        justify-content: center;
         align-items: center;
         width:248px;
         height:88px;
     
+    }
+    .form-part1-2nd-1st-heading{
+        margin-bottom: 30px;
     }
     .form-part1-2nd-1st-right-part-pic img{
          width: 60px;
@@ -357,6 +360,7 @@
     }
     .form-part1-2nd-1st-para p{
         font-size: 12px;
+       
     }
     .form-part1-2nd-2nd{
         width: 120px;
@@ -364,14 +368,14 @@
         padding: 5px 12px;
     }
     .form-part1-third{
-        width: 640px;   
+        width: 740px;   
     }
     .form-part1-2nd-inputs ,.form-part1-2nd-inputs{
         display: flex;
         /* flex-wrap: wrap; */
         justify-content: space-between;
         align-items: center;
-        width: 576px;
+        width: 640px;
 
     }
     .form-part1-2nd-input{
@@ -383,14 +387,14 @@
     .form-part2{
         display: flex;
         flex-direction: column;
-        width: 640px;
+        width: 740px;
         height: 150px;
         box-sizing: border-box;
         gap: 15px;
     }
     .form-part2-2nd{
         display: flex;
-        width: 640px;
+        width: 740px;
         height: 149px;
         border-radius: 8px;
         padding: 32px;
