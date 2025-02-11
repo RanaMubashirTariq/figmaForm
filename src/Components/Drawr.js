@@ -142,63 +142,7 @@ export default function Drawr() {
       <Main open={open}>
         <DrawerHeader />
                 
-            <div className='form'>
-                     <div className='first-part-form'>
-                       <div className='first-inner-part-form'>
-                      <div className='first-inner-part-heading'><h2>Contact Info</h2></div>
-                      <div className='first-inner-part-para'><p>Manage Your Information</p></div>
-                      </div>
-                     </div>
-                     <div className='second-part-border-form'>
-                      <div className='second-part-border-1st'>
-                            <div className='second-part-1st-rightside'>
-                              <div className='second-part-1st-rightside-pic'><img src='/Images/profileIcon-Form.svg'/></div>
-                              <div className='second-part-1st-rightside-head'>
-                                <div className='second-part-1st-rightside-heading'><h2>Andre Samosa</h2></div>
-                                <div className='second-part-1st-rightside-para'><p>andresamosa@mail.com</p></div>
-                              </div>
-                            </div>
-                           <Button variant="contained" className='btn'>Upload Up</Button>
-                      </div>
-
-                      <div className='third-part-border-form'>
-                            <div className='third-part-border-inputs'>
-                              <div className='third-part-input'>
-                                <label htmlFor="">Full Name</label>
-                                <div className='third-part-inner-input'><input type="text" placeholder='Andera' /></div>
-                              </div>
-                              <div className='third-part-input'>
-                                <label htmlFor="">Email</label>
-                                <div className='third-part-inner-input'><input type="text" placeholder='anderasomsa@gmail.com'/></div>
-                              </div>
-                            </div>
-
-                            <div className='third-part-border-inputs'>
-                              <div className='third-part-input'>
-                                <label htmlFor="">Origin</label>
-                                <div className='third-part-inner-input'><input type="text" placeholder='Indonasia' /></div>
-                              </div>
-                            </div>
-          
-                      </div>
-
-                      <div className='fourth-part-border-form'>             
-                       <div className='fourth-inner-part-form'>
-                      <div className='fourth-inner-part-heading'><h2>Crypto Addresses</h2></div>
-                      <div className='fourth-inner-part-para'><p>Manage your information</p></div>
-                      </div>
-
-                       <div className='fourth-part-left-form'>
-                        <div className='fourth-part-left-inner-d'>
-                         <div className='fourth-part-para'><p>Please connect your BEP20 wallet for receiving referral payments</p></div>
-                         <Button variant="contained" className='btn2' >Link Wallet</Button>
-                         </div>
-                       </div>
-
-
-                      </div>
-                     </div>
-            </div>
+            
       </Main>
     </Box>
   );
