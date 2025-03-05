@@ -21,6 +21,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import Button from '@mui/material/Button';
 import './Drawr.css'
 import SideNavigationBar from '../Components/SideNavigationBar'
+import FormSection from './FormSection';
 
 const drawerWidth = 240;
 
@@ -142,7 +143,6 @@ export default function Drawr() {
       <Main open={open}>
         <DrawerHeader />
                 
-            
       </Main>
     </Box>
   );

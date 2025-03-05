@@ -43,7 +43,7 @@
     height: 24px;
 }
 
-@media screen and (min-width:1300px) and (max-width:1440px) {
+@media screen and (max-width:1440px) {
     .profile-bar{
         width: 1180px;
         height: 80px;
@@ -53,7 +53,7 @@
         height: 40px;
     }
 } 
-@media screen and (min-width:768px) and (max-width:1145px) {
+@media screen and (max-width:1145px) {
     .profile-bar{
             width: calc(100% - 220px);
             height: 60px;
@@ -73,25 +73,14 @@
         padding: 15px 24px;
     }
 } 
-@media screen and (min-width:480px) and (max-width:768px) {
+@media screen and (max-width:768px) {
     .profile-bar{
             width: calc(100% - 200px);
             height: 60px;
             position: fixed;
             top: 0;
             left: 200px;
-            box-sizing: border-box;
-            background: rgba(241, 241, 241, 1);
-        
         }
-    .profile-bar-inner-d{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        max-width: 1200px;
-        height: 30px;
-        padding: 15px 24px;
-    }
 } 
 @media screen and (max-width:480px){
     .profile-bar{
@@ -100,16 +89,5 @@
             position: fixed;
             top: 0;
             left: 200px;
-            box-sizing: border-box;
-            background: rgba(241, 241, 241, 1);
-        
         }
-    .profile-bar-inner-d{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        max-width: 1200px;
-        height: 30px;
-        padding: 15px 24px;
-    }
 } 

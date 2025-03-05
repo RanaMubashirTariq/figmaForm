@@ -3,14 +3,18 @@ import ProfileFrame from './Components/ProfileFrame';
 import SideNavigationBar from './Components/SideNavigationBar';
 import './App.css'
 import Drawr from './Components/Drawr';
+import SettingsDrawer from './Components/SettingsDrawer';
+import FigmaTable from './Components/FigmaTable';
 
 function App() {
   return (
     <div className="App">
-      {/* <SideNavigationBar/>
-      <ProfileFrame/>
-      <FormSection/> */}
-      <Drawr/>
+      {/* <Drawr/> */}
+      {/* <SideNavigationBar/> */}
+      {/* <ProfileFrame/> */}
+      {/* <FormSection/> */}
+      {/* <SettingsDrawer/> */}
+      <FigmaTable/>
     </div>
   );
 }
