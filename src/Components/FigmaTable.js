@@ -74,8 +74,9 @@ export default function FigmaTable() {
     <div className="figmatable">
     <TableContainer component={Paper} sx={{ boxShadow: "none" }}>
       <Table sx={{ overflowX:'scroll'}}>
-        <TableHead>
-          <TableRow className="tHeader">
+        <TableHead >
+          <TableRow     sx={{  backgroundColor: "#f8f9fa",borderRadius: "8px", '& th': {fontWeight: "500", color: "#6c757d", whiteSpace: "nowrap",},
+    }} >
             <TableCell sx={{ fontSize: isMobile ? '10px' : '14px' , padding: isMobile ? '10px' : ' '}}>#</TableCell>
             <TableCell sx={{ fontSize: isMobile ? '10px' : '14px' , padding: isMobile ? '10px' : ' '}}>User ID</TableCell>
             <TableCell sx={{ fontSize: isMobile ? '10px' : '14px' , padding: isMobile ? '10px' : ' ' }}>Sign Up Date</TableCell>
@@ -103,8 +104,8 @@ export default function FigmaTable() {
                   </div>
                 </div>
               </TableCell>
-              <TableCell sx={{ fontSize: isMobile ? '10px' : '14px' }}>{row.date}</TableCell>
-              <TableCell sx={{ fontSize: isMobile ? '10px' : '14px' }}>{row.level}</TableCell>
+              <TableCell sx={{ fontSize: isMobile ? '10px' : '14px', whiteSpace: "nowrap"  }}>{row.date}</TableCell>
+              <TableCell sx={{ fontSize: isMobile ? '10px' : '14px', whiteSpace: "nowrap" }}>{row.level}</TableCell>
               <TableCell sx={{ fontSize: isMobile ? '10px' : '14px' }}>{row.staked}</TableCell>
               <TableCell sx={{ fontSize: isMobile ? '10px' : '14px' }}>{row.referrer}</TableCell>
               <TableCell sx={{ fontSize: isMobile ? '10px' : '14px' }}>{row.commissions}</TableCell>
